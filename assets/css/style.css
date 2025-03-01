@@ -794,7 +794,19 @@ main {
   line-height: 1.3;
   margin-bottom: 7px;
 }
-
+.timeline-item-jobdescription{
+  font-size: var(--fs-5);
+  line-height: 1.3;
+  margin-bottom: 7px;
+  font-weight: normal; 
+  font-style: italic;
+  display: flex;  /* Added flexbox to align GPA */
+  justify-content: space-between;
+  align-items: center;
+}
+.timeline-item-jobdescription .gpa {
+  font-style: normal;  /* Make GPA text normal font style */
+}
 .timeline-list span {
   color: var(--vegas-gold);
   font-weight: var(--fw-400);
@@ -828,7 +840,17 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+/* Flexbox for timeline-header */
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;  /* Ensures both title and date align correctly */
+}
 
+.timeline-item-date {
+  font-weight: normal;  /* Optional: style as needed */
+}
 
 /**
  * skills 
@@ -1026,7 +1048,12 @@ main {
   font-weight: var(--fw-300);
 }
 
-
+.project-category span {
+  color: var(--vegas-gold);
+  font-weight: var(--fw-400);
+  line-height: 1.6;
+  font-style: italic;
+}
 
 
 
@@ -1863,6 +1890,16 @@ textarea.form-input::-webkit-resizer { display: none; }
     --fs-7: 14px;
     font-weight: var(--fw-300);
   }
+  .contact-link {
+  text-decoration: underline;
+  color: #0077b5; /* LinkedIn blue */
+  font-weight: bold;
+}
+
+.contact-link:hover {
+  text-decoration: none;
+  color: #005582; /* Darker LinkedIn blue */
+}
 
   .separator:last-of-type {
     margin: 15px 0;
