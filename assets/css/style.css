@@ -1056,6 +1056,26 @@ main {
 }
 
 
+.live-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #F5F5DC; /* Light Beige */
+  color: #333;  /* Dark Gray Text */
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft Shadow */
+  transition: all 0.3s ease-in-out;
+  white-space: nowrap;
+}
+
+.live-link:hover {
+  background: #EAE0C8; /* Slightly darker beige */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
 
 /*-----------------------------------*\
   #BLOG
