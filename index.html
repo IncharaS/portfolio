@@ -186,20 +186,13 @@
 
         <section class="about-text">
           <p>
-            I'm a Software Engineer with a strong focus on full-stack development and scalable system architecture. 
-            I specialize in building robust web applications using React, Node.js, and Spring Boot, and have 
-            extensive experience in API development, containerization with Docker and Kubernetes, 
-            and CI/CD automation with Jenkins.
-          </p>
+            I’m a Software Engineer with over four years of experience building backend systems, cloud platforms, and AI powered applications. My core strengths are in Node.js, Python, FastAPI, React, and cloud infrastructure, with hands-on experience deploying scalable systems on AWS and GCP.
+          </p><p>
+Currently, I work at Project 990, where I build full stack research platforms used by 30 plus researchers, processing over five million monthly queries. I’ve designed LLM powered text to SQL pipelines, asynchronous Celery based processing systems, and optimized API performance using Redis caching and SQLAlchemy, reducing latency from 1.5 seconds to 300 milliseconds.
 
-          <p>
-            While my primary expertise lies in software engineering, 
-            I also have deep skills in data engineering, including the design of real-time data pipelines 
-            using Apache Kafka, PySpark, and Snowflake. I excel in optimizing ETL workflows, 
-            ensuring high-performance data transformation and query execution. With a strong foundation in 
-            distributed computing and cloud-based solutions, I leverage AWS and Google Cloud to develop scalable, 
-            cloud-native systems. My passion lies in bridging the gap between software and data engineering to build 
-            efficient, high-performance applications that meet complex business needs.
+Previously at Sony India, I worked on a large scale rewards platform handling 10 million plus monthly events using Node.js, Kafka, AWS EKS, and React, where I improved UI performance, backend efficiency, and CI reliability. I also implemented secure Web3 authentication using MetaMask and optimized heavy data processing workflows.
+
+Across my roles, I’ve consistently worked on production grade systems involving REST APIs, cloud deployments, Docker, Kubernetes, CI CD, and AI integrations. I enjoy building end to end systems that combine data engineering, backend APIs, and user facing applications, and I’m especially excited about roles that sit at the intersection of full stack engineering and applied AI.
           </p>
         </section>
 
@@ -265,7 +258,7 @@
                 <h4 class="h4 service-item-title">Data Engineering</h4>
 
                 <p class="service-item-text">
-                  Designing, building, and optimizing data pipelines for efficient data processing and analysis using tools like Apache Kafka, PySpark, and Snowflake.
+                  Designing, building, and optimizing data pipelines for efficient data processing and analysis using tools like Kafka, Databricks and Snowflake.
                 </p>
               </div>
 
@@ -531,14 +524,32 @@
 
 <!--               <p class="timeline-text"> -->
               <ul>
-              <li class="timeline-text">Built a Python and SQL-based ETL pipeline, efficiently processing 10 GB of data monthly using Parquet for storage and in-memory processing with Pandas.</li>
- <li class="timeline-text">Designed scalable RESTful APIs in Node.js & Express.js for fetching and filtering data on thousands of Non-Profit organizations.</li>
-  <li class="timeline-text">Integrated Redis caching, reducing API response time from 1.5s to 300ms and optimizing database performance.</li>
-  <li class="timeline-text">Improved frontend performance by implementing lazy loading and code splitting with React Suspense and React Router, reducing initial page load time by 50%.</li>
-  <li class="timeline-text">Deployed MERN application on AWS (EC2, S3 for static files) with a load balancer, ensuring high availability and scalability.</li>
-<!--               </p> -->
-                </ul>
+              
+              <li class="timeline-text">
+Built full-stack research dashboards using React, Next.js, Node.js, and FastAPI, enabling 30+ researchers to explore and analyze over 5M monthly queries with real-time insights.
+</li>
 
+<li class="timeline-text">
+Designed LLM-powered text-to-SQL pipelines and fine-tuned prompt workflows to translate natural-language research questions into optimized SQL queries, reducing repetitive analysis time by 40%.
+</li>
+
+<li class="timeline-text">
+Developed scalable RESTful APIs using FastAPI and Node.js, supporting high-volume query workloads and powering dynamic frontend search, filtering, and visualization components.
+</li>
+
+<li class="timeline-text">
+Integrated Redis caching and optimized SQLAlchemy + Alembic pipelines, reducing API latency from 1.5 seconds to 300 milliseconds and significantly improving frontend responsiveness.
+</li>
+
+<li class="timeline-text">
+Scaled asynchronous background processing using Celery and Redis, supporting 18K monthly LLM jobs and increasing overall pipeline throughput by 3×.
+</li>
+
+<li class="timeline-text">
+Containerized backend services with Docker and deployed on AWS EC2 behind Nginx with TLS and IAM-based access control, powering a secure research portal managing 2,500+ submissions.
+</li>
+
+              </ul>
             </li>
 
             <li class="timeline-item">
@@ -546,7 +557,7 @@
               <h4 class="h4 timeline-item-title">Indiana University Bloomington, Bloomington, Indiana, USA</h4>
               <h5 class="h5 timeline-item-jobdescription">Graduate Teaching Assistant</h5>
 
-              <span>2024 — Present</span>
+              <span>2024 — 2025</span>
 
               <ul>
                 <li class="timeline-text">Led a team of 30+ students as Scrum Master using Jira, applying agile methodologies to manage project timelines, sprints, and backlog grooming for full-stack applications.</li>
@@ -565,14 +576,10 @@
               <span>2022 — 2023</span>
 
               <ul>
-                 <li class="timeline-text">Analysed and translated product owner requirements into a 10+ page custom platform using Spring MVC (hosted on EC2), React
+                 <li class="timeline-text">Analysed and translated product owner requirements into a 10+ page custom platform using Node.js, React
  and RDS(MySQL) to support the Ethereum-based blockchain rewards program.</li>
  <li class="timeline-text">Implemented OAuth 2.0 authentication using MetaMask for Ethereum address verification with role-based access control,
  optimized Solidity smart contracts for reward rules and gas usage, ensuring efficient interactions.</li>
- <li class="timeline-text">Automated unit testing for frontend and backend using Jest and JUnit 5/Mockito, integrated into the Jenkins CI/CD pipeline for
- continuous validation and version control via Git.</li>
- <li class="timeline-text">Implemented backend integration tests using Spring Boot Test and Testcontainers using Docker, ensuring real database
- interactions and API correctness in a production-like environment.</li>
  <li class="timeline-text">Refactored an existing Node.js application by migrating complex business logic from JavaScript code to MySQL stored
  procedures to reduce code redundancy.</li>
  <li class="timeline-text">Engineered over 10 RESTful APIs for data retrieval with debounced search, multi-select filters, sorting, and pagination, optimizing
@@ -817,6 +824,44 @@ Computing, Cryptography, Object Oriented Programming,  Artificial Intelligence, 
           </div>
 
           <ul class="project-list">
+            <!-- Add these 2 projects anywhere inside your <ul class="project-list"> ... </ul> in the Portfolio section -->
+
+<li class="project-item active" data-filter-item data-category="machine learning">
+  <a href="https://github.com/IncharaS/ai-code-reviewer">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="./assets/images/multi-agent.png" alt="Multi-Agent AI Research Intelligence System" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Multi-Agent AI Research Intelligence System</h3>
+
+    <p class="project-category">
+      <span>Tech Stack: Python, FastAPI, Google ADK, Gemini API, PostgreSQL, Streamlit</span>
+      Built a Google ADK multi-agent code-review system using a Code Reviewer agent and an Evaluator agent with shared memory and tool-calling, enabling automated review of uploaded code files and pull requests through a Streamlit interface.
+    </p>
+  </a>
+</li>
+
+<li class="project-item active" data-filter-item data-category="web development">
+  <a href="https://github.com/IncharaS/brm-renewal-calendar">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="./assets/images/renewal-calendar.png" alt="BRM Renewal Calendar" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">BRM Renewal Calendar</h3>
+
+    <p class="project-category">
+      <span>Tech Stack: Next.js (App Router), TypeScript, Drizzle ORM, PostgreSQL, OpenAI API, AWS S3, Vercel Cron</span>
+      Built a production-grade renewal tracking app that ingests Purchase Agreement PDFs, extracts key contract metadata, computes renewal and notice deadlines with Pacific-timezone awareness, and renders a dynamic calendar with automated reminders, user-to-user event sharing, email notifications, and secure AWS S3-backed file storage orchestrated with Vercel Cron Jobs.
+    </p>
+  </a>
+</li>
+
 
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="https://github.com/IncharaS/chatpdf">
